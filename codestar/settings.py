@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['woodworker.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['woodworker-blog.herokuapp.com', 'localhost']
 
 
 # Application definition
