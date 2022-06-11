@@ -1,0 +1,23 @@
+body {
+    background-color: #141414;
+    color: #fff;
+}
+
+
+nav {
+    padding-left: 15px;
+    margin-bottom: 40px;
+    background-color: #000000;
+}
+
+.dropdown-menu {
+    background-color: #000000;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+footer {
+    background-color: #000000;
+}
