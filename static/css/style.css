@@ -1,23 +1,32 @@
-body {
-    background-color: #141414;
-    color: #fff;
-}
-
-
 nav {
-    padding-left: 15px;
+    padding: 0 15px 0 15px;
     margin-bottom: 40px;
+}
+
+.black-bg {
     background-color: #000000;
 }
 
-.dropdown-menu {
-    background-color: #000000;
+.dark-bg {
+    background-color: #141414;
 }
 
-.dropdown-item {
-    color: white;
+.text-white {
+    text-decoration: none;
 }
 
-footer {
-    background-color: #000000;
+.home-image-container {
+    height: 400px;
+    color: #fff;
+
+    background: url('https://images.pexels.com/photos/5711877/pexels-photo-5711877.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat bottom right fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.btn {
+    background: rgba(72, 71, 75, 0.541);
 }
