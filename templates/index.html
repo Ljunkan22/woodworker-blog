@@ -23,7 +23,7 @@
 
     <div class="row">
 
-        <!-- Blog Entries Column -->
+        <!-- Post Entries Column -->
 
         <div class="col-12 mt-3 left">
             <div class="row">
@@ -42,7 +42,7 @@
                                     <p class="author">Author: {{ post.author }}</p>
                                 </div>
                             </div>
-                            <a href="#" class="post-link text-white">
+                            <a href="{% url 'post_detail' post.slug %}" class="post-link text-white">
                                 <h2 class="card-title">{{ post.title }}</h2>
                                 <p class="card-text">{{ post.preview }}</p>
                             </a>
